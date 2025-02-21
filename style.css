@@ -581,12 +581,13 @@ span{
     html{
         font-size: 55%;
     }
-    .skills-container{
+    .skills .container .row{
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
 }
+
 @media(max-width:991px){
     .header{
         padding: 2rem 3%;
@@ -594,10 +595,19 @@ span{
     section{
         padding: 10rem 3% 2rem;
     }
-    .skills{
+    .skills {
         padding-bottom: 7rem;
     }
-    .footer{
-        padding: 2rem 3%;
+    .education{
+        padding-bottom: 7rem;
+    }
+}
+
+@media (max-width:895px){
+    .skills h2{
+        margin-bottom: 3rem;
+    }
+    .skills .container .row{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
