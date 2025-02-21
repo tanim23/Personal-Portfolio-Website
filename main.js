@@ -16,3 +16,7 @@ navLinks.forEach(link => {
         menuIcon.classList.remove("bx-x");
     });
 });
+
+
+
+
